@@ -1,0 +1,59 @@
+body{
+  background: lightgray;
+  position: relative;
+  margin: 0px;
+  padding-bottom: 15px;
+}
+
+header{
+  background: black;
+  color: white;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 90px;
+  padding-bottom: 20px;
+  border-bottom: 20px dashed lightgray;
+}
+
+h1{
+  font-family: Bookman;
+  text-align: center;
+  font-weight: lighter;
+  font-size: 3.5em;
+}
+
+main{
+  margin-top: 130px;
+}
+
+img{
+  width: 20%;
+  border-radius: 100%;
+}
+
+strong{
+  color: navy;
+  font-family: Bookman;
+  font-weight: bold;
+}
+
+article{
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+
+}
+
+.bio{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+
+}
+
+.avatar{
+  padding-top: 40px;
+}
